@@ -32,6 +32,7 @@
 
 .rounded-social-buttons .fa-twitter,
 .fa-facebook-f,
+.fa-discord,
 .fa-linkedin,
 .fa-github,
 .fa-orcid,
@@ -73,6 +74,17 @@
   border-color: #007bb5;
 }
 
+
+.rounded-social-buttons .social-button.discord {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.discord:hover, .rounded-social-buttons .social-button.discord:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
 .rounded-social-buttons .social-button.github {
   background: #000000;
 }
@@ -93,35 +105,6 @@
   border-color: #000000;
 }
 
-.rounded-social-buttons .social-button.orcid {
-  background: #a6ce3b;
-}
-
-.rounded-social-buttons .social-button.orcid:hover, .rounded-social-buttons .social-button.orcid:focus {
-  color: #a6ce3b;
-  background: #fefefe;
-  border-color: #a6ce3b;
-}
-
-.rounded-social-buttons .social-button.researchgate {
-  background: #5dd1b0;
-}
-
-.rounded-social-buttons .social-button.researchgate:hover, .rounded-social-buttons .social-button.researchgate:focus {
-  color: #5dd1b0;
-  background: #fefefe;
-  border-color: #5dd1b0;
-}
-
-.rounded-social-buttons .social-button.quora {
-  background: #a82400;
-}
-
-.rounded-social-buttons .social-button.quora:hover, .rounded-social-buttons .social-button.quora:focus {
-  color: #a82400;
-  background: #fefefe;
-  border-color: #5dd1b0;
-}
 
 .rounded-social-buttons .social-button.instagram {
   color: #ffffff;
@@ -136,14 +119,4 @@
     color: #a82400;
     background: #fefefe;
     border-color: #5dd1b0;
-}
-
-.rounded-social-buttons .social-button.stackoverflow {
-  background: #f48024;
-}
-
-.rounded-social-buttons .social-button.stackoverflow:hover, .rounded-social-buttons .social-button.stackoverflow:focus {
-  color: #f48024;
-  background: #fefefe;
-  border-color: #5dd1b0;
 }
