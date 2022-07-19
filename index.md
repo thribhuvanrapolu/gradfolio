@@ -11,4 +11,5 @@ Hello There..
 
 I am currently doing Computer Science Engineering in Mahindra University, Hyderabad.
 
-I love to work with computers.
+I am into Competitive Coding, Machine Learning, CyberSecurity. (Basically everything into Computers)
+
