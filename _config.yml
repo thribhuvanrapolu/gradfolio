@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Thribhuvan Rapolu
-description: CS engineer student
+description: CS Engineer Student
 
 baseurl: /gradfolio #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
@@ -13,7 +13,7 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-twitter: "#"
+twitter: "twitter.com"
 linkedin: "#"
 stackoverflow: "#"
 github: "#"
