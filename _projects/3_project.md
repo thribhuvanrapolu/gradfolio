@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Click to Redirect to Project
-description: with no page entry here
-redirect: https://unsplash.com
+title: MU-Verify-Bot(Discord)
+description: Discord Verification Bot for Mahindra University 
+redirect: https://github.com/thribhuvanrapolu/MU-Verify-Bot
 ---
