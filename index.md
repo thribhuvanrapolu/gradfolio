@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-Hello There..
+Hello There...
 
 I am currently doing Computer Science Engineering in Mahindra University, Hyderabad.
 
