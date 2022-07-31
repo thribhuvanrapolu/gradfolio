@@ -1,3 +1,8 @@
+---
+layout: post
+title: "MultiMedia Sleep Timer"
+---
+
 # How to use the app:
 1. Enable Lock Screen Permission by clicking on the button at top.
 2. Select the countdown timer minutes.
