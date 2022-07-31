@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Remainder(Java)
-description:  Terminal interaction Remainder built using Java(10th Class Project) 
-redirect: https://github.com/thribhuvanrapolu/Project_Remainder
+title: MU-Verify-Bot(Discord)
+description: Discord Verification Bot for Mahindra University(Python) 
+redirect: https://github.com/thribhuvanrapolu/MU-Verify-Bot
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: MultiMedia Sleep Timer
-description: Automatically turns off video/audio from any app when you are asleep
-redirect: https://github.com/thribhuvanrapolu
+title: DisVer(Discord Bot)
+description: Prototype for MU-Verify-Bot(Python)
+redirect: https://github.com/thribhuvanrapolu/DisVer
 ---
+

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: DisVer(Discord Bot)
-description: Prototype for MU-Verify-Bot(Python)
-redirect: https://github.com/thribhuvanrapolu/DisVer
+title: Aptronix_Store
+description: Terminal interaction store built using Java(10th Class Project) 
+redirect: https://github.com/thribhuvanrapolu/Aptronix_store
 ---
-

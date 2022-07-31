@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MU-Verify-Bot(Discord)
-description: Discord Verification Bot for Mahindra University(Python) 
-redirect: https://github.com/thribhuvanrapolu/MU-Verify-Bot
+title: Auto Downloads Manager
+description: Moves Downloaded files to their respective folders based on file type(Python)
+redirect: https://github.com/thribhuvanrapolu/Auto-Downloads-Manager
 ---

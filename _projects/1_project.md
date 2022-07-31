@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moodle-Discord
-description: Link Moodle student account with Discord(Python-PHP-SQL)
-redirect: https://github.com/thribhuvanrapolu/Moodle-Discord
+title: MultiMedia Sleep Timer
+description: Automatically turns off video/audio from any app when you are asleep
+redirect: https://github.com/thribhuvanrapolu
 ---
