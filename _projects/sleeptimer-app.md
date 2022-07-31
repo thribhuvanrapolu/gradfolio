@@ -1,5 +1,4 @@
 ---
-layout: post
 title: MultiMedia Sleep Timer-App
 ---
 
