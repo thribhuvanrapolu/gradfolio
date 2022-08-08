@@ -3,7 +3,7 @@ layout: post
 title: "MultiMedia Sleep Timer"
 ---
 # PlayStore link:
-https://play.google.com/store/apps/details?id=com.thribhuvan.multimediasleeptimer
+<https://play.google.com/store/apps/details?id=com.thribhuvan.multimediasleeptimer>
 
 # How to use the app:
 1. Enable Lock Screen Permission by clicking on the button at top.
@@ -16,4 +16,4 @@ https://play.google.com/store/apps/details?id=com.thribhuvan.multimediasleeptime
 8. When the timer finishes the video/audio you are playing will pause and lock your screen
 
 # Project Link:
-https://github.com/thribhuvanrapolu/MultiMedia-Sleep-Timer
+<https://github.com/thribhuvanrapolu/MultiMedia-Sleep-Timer>
