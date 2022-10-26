@@ -11,5 +11,5 @@ Hello There...
 
 I am currently doing Computer Science Engineering in Mahindra University, Hyderabad.
 
-I am into Competitive Coding, Machine Learning, CyberSecurity. (Basically everything into Computers)
+I am into Competitive Coding, Machine Learning, CyberSecurity, Discord-Bot Dev, App-Dev. (Basically everything into Computers)
 
