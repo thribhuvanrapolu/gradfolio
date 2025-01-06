@@ -1,0 +1,555 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="height=device-height">
+		<meta author="Revolt">
+		<meta description="YourName's Project Portfolio">
+		<meta keywords="Your, Name">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Your Name - Project Portfolio</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+		<style type="text/css">
+			.small-caps {
+			    -ms-font-feature-settings: "smcp";
+			    -moz-font-feature-settings: "smcp";
+			    -webkit-font-feature-settings: "smcp";
+			    font-feature-settings: "smcp";
+			}
+
+			.text-figures { 
+			    -moz-font-feature-settings: 'onum';
+			    -ms-font-feature-settings: 'onum';
+			    -webkit-font-feature-settings: 'onum';
+			    font-feature-settings: 'onum';
+			}
+
+			body{
+				font-family: 'Merriweather', Georgia, serif;
+				margin: 0;
+				padding: 0;				
+			}
+			h1, h2, h3, h4, h5, h6{
+				font-family: 'Open Sans', sans-serif;
+			}
+			h1{
+				font-size: 48px;
+			}
+			h3{
+				font-size: 24px;
+			}
+			h6{
+				font-size: 22px;
+				font-weight: 300;
+				color: #FFF;
+			}
+			p, .item{
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 1.75;
+			}
+			a{
+				color: #000;
+			}
+			
+			
+			.id_tags{
+				padding: 2px 4px;
+				font-size: 90%;
+				color: rgb(255, 255, 255);
+				background-color: #92898c;
+				border-radius: 4px;
+			}
+			.logo{
+				display: inline-block;
+				position: fixed;
+				left: 10px;
+				top: 10px;
+				z-index: 1000;
+				width: 44px;
+				height: 44px;
+				background: #000;
+				color: #FFF;
+				font-size: 24px;
+				font-weight: 700;
+				text-decoration: none;
+				text-align: center;
+			}
+			.logo:hover{
+				background: #444;
+			}
+			.logo-initial{
+				position: relative;
+				top: 8px;
+			}
+			.special-menu{
+				display: inline-block;
+				position: fixed;
+				left: 3%;
+				bottom: 5%;
+				z-index: 0;
+			}
+			.special-link{
+				border: 1px solid #888;
+				font-style: italic;
+				text-decoration: none;
+				padding: 5px 20px;
+				display: block;
+				font-family: 'Merriweather', serif;
+				text-align: center;
+				font-size: 14px;
+				border-radius: 3px;
+				margin-bottom: 5px;				
+			}
+			.scroll-menu{
+				display: inline-block;
+				position: fixed;
+				left: 3%;
+				top: 22%;
+				z-index: 0;
+			}
+			.scroll-menu .scroll-links{ 
+				font-family: 'Open Sans', sans-serif;
+				display: block;
+				text-decoration: none;
+				padding: 10px 0px;
+				font-size: 12px;
+				color: #000;
+				text-align: center;
+				border-bottom: 1px solid #CCC;
+				text-transform: uppercase;
+			}
+			.scroll-menu .scroll-links.last-link{
+				border-bottom: none;
+			}
+			.full-page{
+				width: 100%;
+				height: 100%;
+				z-index: 100;
+				background-color: #FFF;
+				position: relative;
+			}
+
+			.full-page h1, .full-page h6, .full-page a{
+				font-family: Caflisch Script Pro, cursive;
+			}
+
+			.full-page a{
+				text-decoration: none;
+				color: #4B0082;
+			}
+
+			.full-page h1, .full-page h6{
+				margin: 0px;
+			}
+
+			.full-page h1{
+				font-size: 3em;
+				line-height: 1.2em;
+			}
+
+			.full-page h6{
+				font-size: 1em;
+				color: #666;
+			}
+			.uppercase{
+				text-transform: uppercase;
+			}
+
+			.left{
+				width: 50%;
+				height: 100%;
+				display: inline-block;
+				float: left;
+				text-align: center;
+			}
+
+			.left.black{
+				background: #000;
+				color: #FFF;
+			}
+
+			.wrapper .container{
+				display: table;
+	   			width: 100%;
+	   			height: 100%;
+			}
+
+			.wrapper .container .dummy{
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle;
+				padding: 0px 10%;
+			}
+			.full-page a.button{
+				text-decoration: none;
+				width: 200px;
+				padding: 10px 0px;
+				margin: 10px 0px;
+				border: 1px solid;
+				display: inline-block;
+				text-transform: uppercase;
+			}
+
+			.full-page a.button.white{
+				color: #FFF;
+			}
+
+			.full-page a.button.white:hover{
+				background: #222;
+			}
+			.content{
+				width: 65%;
+				margin: 150px auto;
+			}
+			.item{
+				margin-bottom: 30px;
+			}
+			.item .college-name, .item .skill-type{
+				font-weight: 400;
+			}
+			.item .year-address, .item .skills{
+				color: #444;
+			}
+			.grid-collection .item{
+				margin-bottom: 0px;
+				padding: 20px 0px;
+				border-bottom: 1px solid grey;
+			}
+			.grid-item{
+				position: relative;
+				margin-bottom: 50px;
+			}
+			.grid-item .content-wrapper{
+				position: absolute;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.4);
+				opacity: 0;
+				transition: opacity .3s ease-out;
+			    -moz-transition: opacity .3s ease-out;
+			    -webkit-transition: opacity .3s ease-out;
+			    -o-transition: opacity .3s ease-out;
+			    text-align: center;
+			}
+			.grid-item:hover .content-wrapper{
+				opacity: 1;
+			}
+			.grid-item .content-wrapper .button{
+				background: #FFF;
+				padding: 10px 25px;
+				color: #000;
+				text-decoration: none;
+				font-family: 'Open Sans', sans-serif;
+				border-radius: 4px;
+				position: relative;
+				top: -40px;
+				-webkit-transition: all 0.3s ease-out;
+				-moz-transition: all 0.3s ease-out;
+				-o-transition: all 0.3s ease-out;
+				-ms-transition: all 0.3s ease-out;
+				transition: all 0.3s ease-out;
+			}
+			.grid-item:hover .content-wrapper .button{
+				top: 50%;
+			}
+			.contacts a{
+				margin-right: 10px;
+			}
+			a.email{
+				text-decoration: none;
+			}
+			.brief{
+				font-size: 14px;
+				margin-top: 5px;
+			}
+			.item .link{
+				margin-top: 5px;
+			}
+
+			.project-title{
+				font-weight: 800;
+				font-size: 18px;
+			}
+			.project-description{
+				    margin-top: 10px;
+				    color: #000000;
+				    font-size: 18px;
+				    font-weight: 300;
+			}
+			.project-links{
+				font-size: 18px;
+				font-weight: 800;
+				margin-top: 10px;
+			}
+			.img-circle {
+				border-radius: 50%;
+			}
+			/* Small Screens ----------- */
+			@media only screen and (max-width: 767px){
+				.special-menu .special-link{
+					font-size: 12px;
+					padding: 5px;
+				}
+				.scroll-menu{
+					display: none;
+				}
+				.left{
+					width: 100%;
+					height: 50%;
+				}
+				.wrapper .container .dummy{
+					padding: 0;
+				}
+			}
+			@media only screen and (max-height: 480px){
+				.scroll-menu{
+					display: none;
+				}
+				.left{
+					height: auto;
+				}
+			}
+
+			.about-me-container {
+			  display: flex;
+			  align-items: center;
+			}
+
+			.about-me-image {
+			  /* margin-right: 20px; */
+			  margin-left: 30px;
+			  width: 225px;
+			  height: auto;
+			  border-radius: 10%;
+			}
+
+			@media (max-width: 768px) {
+			  .about-me-container {
+			    flex-direction: column;
+			    align-items: flex-start;
+			  }
+		  
+			  .about-me-image {
+			    margin-right: 0;
+			    margin-bottom: 20px;
+			  }
+			}
+
+			.heading {
+			  /* existing styles */
+			  margin-bottom: 10px; /* Adjust this value as needed */
+			}
+
+			.achievements-list {
+				  list-style-type: disc;
+				  padding-left: 20px;
+				  font-size: 18px;
+				  font-weight: 300;
+				}
+
+				.achievements-list li {
+				  margin-bottom: 10px;
+			}
+
+			.list {
+				  list-style-type: disc;
+				  padding-left: 20px;
+				  font-size: 18px;
+				  font-weight: 300;
+				  margin-top: -1%;
+				}
+
+				.achievements-list li {
+				  margin-bottom: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--TODO: change the logo initial from TT to your initials-->
+		<a href="./index.html"  title="Home"></a>
+		<!-- <div class="special-menu">
+			<a href="#top" class="scroll-links special-link">Top</a>
+		</div> -->
+		<div class="scroll-menu">
+			<a href="#about" class="scroll-links">About</a>
+			<!-- <a href="#publications" class="scroll-links">Publications</a> -->
+			<a href="#Research" class="scroll-links">Research</a>
+			<a href="#Work_Exp" class="scroll-links">Work Exp</a>
+			<a href="#education" class="scroll-links">Education</a>
+			<a href="#Work Exp" class="scroll-links">Work Exp</a>
+			<a href="#contact" class="scroll-links last-link">Contact</a>
+		</div>
+
+		<!-- <section class="full-page" id="top">
+			<section class="left white wrapper">
+				<div class="container">
+					<div class="dummy">
+						<h1 class="uppercase">Your Name</h1>
+						<h6 class="uppercase">Your job description</h6>
+					</div>
+				</div>
+			</section>
+			<section class="left black wrapper">
+				<div class="container">
+					<div class="dummy">
+						<img class="img-circle" src="images/me.png">
+						<div><a href="#portfolio" class="button white scroll-links" title="Academics & work experiences">Explore My Work</a></div>
+					</div>
+				</div>
+			</section>
+			<div style="clear: both;"></div>
+		</section>
+ -->
+		
+ 		<section class="content" id="portfolio">
+			<h1 class="heading" id="name">Thribhuvan Rapolu</h1>
+		
+				<!----------------------------------------------------ABOUT-ME START--------------------------------------------------------------------------------------->
+				<h1 class="heading" id="about" name="about">About me</h1>
+				<div class="about-me-container">
+				  <p>
+					Passionate about the broader field of Computer Science, with a special focus on AI/ML, Reinforcement
+					Learning, Computer Vision and Natural Language Processing. I have honed my expertise through hands-on
+					projects and by diligently referencing documentation, which has enabled me to become proficient in working
+					with various APIs and frameworks. Currently, I am actively seeking summer internships or research
+					opportunities to further enhance my knowledge and contribute to cutting-edge advancements in these fields.
+				  </p>
+				  <img src="images/me.jpg" alt="Thribhuvan Rapolu" class="about-me-image">
+			  
+				</div>
+<!----------------------------------------------------ABOUT-ME END--------------------------------------------------------------------------------------->
+<!----------------------------------------------------PROJECTS START---------------------------------------------------------------------------------------->	
+
+<h1 class="heading" id="Research" name="projectsml">Current Research</h1>
+<section class="grid-collection">
+	
+	<!--Project 1: START-->
+	<div class="item">
+		<div class="project-title">Pose Estimation and Tracking from Video</div>
+		<div><code class="id_tags">Computer Vision</code> <code class="id_tags">Reinforcement Learning</code></div>
+		
+		<div class="project-description">
+			<ul class="list">
+				<li>Working on Physics Inspired Neural Networks to learn the dynamics of Human Pose</li>
+				<li>Developing a multi-model architecture where each model specializes in different aspects of human kinematic
+					movement, using inter-model corrections to improve pose estimation accuracy and reduce tracking errors.</li>
+				<li>Integrating Reinforcement Learning framework to adapt to dynamic movements and enhance tracking precision
+					in non-stationary conditions across video sequences.</li>
+			  </ul>
+
+		</div>
+		<!-- <div class="project-links">
+			<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/blob/master/CarND-Behavioral-Cloning-P3/writeup_template.md" target="_blank">Report</a>; 
+			<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Behavioral-Cloning-P3" target="_blank">Code</a>
+		</div> -->
+	</div>
+	<!--Project 1: END-->
+	
+	
+</section>
+<!----------------------------------------------------PROJECTS END---------------------------------------------------------------------------------------->				
+
+
+<!----------------------------------------------------Work Experience START---------------------------------------------------------------------------------------->	
+
+<h1 class="heading" id="Work_Exp" name="projectsml">Work Experience</h1>
+<section class="grid-collection">
+	
+	<!--Project 1: START-->
+	<div class="item">
+		<div class="project-title">Dell Technologies</div>
+		<div>Intern</div>
+		
+		<div class="project-description">
+			<ul class="list">
+			<li>Tools & technologies used: Python, Pandas, Langchain, Postgres, MongoDB, GitLab, CI/CD</li>
+			<li>Implemented semantic-based routing and text-image responses in a RAG chatbot using vector embeddings.</li>
+			<li>Built CI/CD pipeline for MongoDB || Explored fine-tuning LLM models</li>
+			</ul>
+		</div>
+		<div class="project-links">
+			<a href="https://tinyurl.com/mu6ef67f" target="_blank">For more insights</a> <whitespace> || <whitespace>
+			<a href="https://drive.google.com/file/d/1lA6CZ_83G96B3Ic7TvtqIw0euzSMbV8U/view?usp=sharing" target="_blank">Internship Certificate</a>
+		</div>
+	</div>
+	<!--Project 1: END-->
+	
+	<!--Project 2: START-->
+	<div class="item">
+		<div class="project-title">FaceIntel Technologies</div>
+		<div>Intern</div>
+		<div class="project-description">
+			<ul class="list">
+				<li>Tools & technologies used: Python, Pandas, HTML, CSS, Javascript</li>
+				<li>Analyzed data from Excel files to extract meaningful insights, identifying key trends and patterns and used them
+					to create a detailed web dashboard.</li>
+			</ul>
+		</div>
+	</div>
+	<!--Project 2: END-->
+
+</section>
+<!----------------------------------------------------PROJECTS END---------------------------------------------------------------------------------------->				
+
+<!----------------------------------------------------EDUCATION START--------------------------------------------------------------------------------------->				
+<h1 class="heading" id="education" name="education">Education</h1>
+			
+				
+<div class="item">
+	<div class="project-title">B.Tech, Computer Science And Engineering </div>
+	<div class="paper-detail"><b>School/College:</b> Mahindra University</div>
+	<div class="paper-detail"><b>CGPA:</b> 8.71</div>
+	<div class="paper-detail"><b>Duration:</b> 2021-2025</div>
+	<div class="paper-detail"><b>Relavant Course Work:</b> Reinforcement Learning, Machine Learning, Control Systems, Digital Image Processing</div>
+
+</div>
+<!----------------------------------------------------EDUCATION END--------------------------------------------------------------------------------------->	
+
+
+
+	<h1 class="heading" id="achievements-title">Achievements</h1>
+	<ul class="achievements-list">
+	  <li><b>Scholarship</b> of ₹1,00,000 for exceptional academic performance by Mahindra University. Nov 2024</li>
+	  <li><b>The Mirai CTF:</b> Achieved 2nd place in a Capture The Flag (CTF) Cybersecurity challenge.Apr 2024</li>
+	  <li><b>Data Challenge:</b> Secured 3rd place for implementing an ML solution on a provided dataset. Apr 2024</li>
+	  <li><b>Scholarship</b> of ₹1,00,000 for exceptional academic performance by Mahindra University. Oct 2023</li>
+	  <li><b>Dell Hackathon:</b> 2nd Winners for working on intimate user to take a break while working. Oct 2023</li>
+	  <li><b>Data Challenge:</b> Secured 3rd place for implementing an ML solution on a provided dataset. Apr 2023</li>
+	  <li><b>The 418 Hackathon:</b> 1st place for integrating ChatGPT with a location-based API. Apr 2023</li>
+	  <li><b>The Mirai CTF:</b> 3rd place in a Capture The Flag (CTF) Cybersecurity challenge. Apr 2023</li>
+	  <li><b>Technomania:</b> 2nd place in challenges based on Competitive Coding (DSA). Feb 2023</li>
+	</ul>
+<!----------------------------------------------------SKILLS START---------------------------------------------------------------------------------------->				
+			<!-- <h1 class="heading" id="skills" name="skills">Skills</h1>
+			<div class="item">
+					<div class="paper-detail"><b>Category 1:</b> alpha, beta, gamma</div>
+					<div class="paper-detail"><b>Category 2:</b> alpha, beta, gamma</div>
+					<div class="paper-detail"><b>Category 3:</b> alpha, beta, gamma</div>
+				</div> -->
+
+<!----------------------------------------------------SKILLS END---------------------------------------------------------------------------------------->			
+
+			<h1 class="heading" id="contact" name="contact">Contact</h1>
+			<p class="contacts">
+				<div>
+					<a href="mailto:thribhuvanrapolu5@gmail.com">Email me</a>
+					<a href="https://github.com/thribhuvanrapolu" target="_blank">Github</a>
+					<a href="https://www.linkedin.com/in/thribhuvan-rapolu-aaa632235/" target="_blank">LinkedIn</a>
+				</div>
+			</p>
+		</section>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="./assets/thirdparty/scrollTo.min.js"></script>
+	<script>
+		$('.scroll-links').scrollTo();
+	</script>
+</html>

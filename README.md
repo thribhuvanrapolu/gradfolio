@@ -1,35 +1,21 @@
-# Gradfolio
+# Research Portfolio Website: Tier Two Techie
+Features:
+1. It is absolutely free. No strings attached.
+2. No watermark added, no licence needed.
+3. Just edit the template and launch your own portfolio website. Suitable for not-so-techies.
 
-responsive, dark-mode ready Jekyll theme designed for use as a personal website and portfolio. [Here's a live demo](https://jitinnair1.github.io/gradfolio/)
+## How to create your own research portfolio website
 
-![Gradfolio Template Homepage](https://user-images.githubusercontent.com/2485715/110634179-acaa7e00-81cf-11eb-8846-062ecf961d1e.png)
+1. Go to https://github.com/TierTwoTechie/research_portfolio_template
+2. Click on the fork button (top-right) to copy/fork this code in your github profile
+3. Edit index.html in your forked repository to include your changes.
+4. Save and commit these changes.
+5. Go to settings -> GitHub Pages. Select `Branch Main` and `root` from the drop-down.  Click on 'Save' button.
+6. After saving github will give this message "Your site is published at ~this url~". Navigate to this URL, your portfolio site is published. 
+7. It might take up-to 10 minutes for changes to be published. In case you are getting a 404 error on navigating the above url, try appending `/index.html` at the end of it.
 
-## Features
-- Responsive
-- Respects Dark Mode preference set by user
-- Projects Page to showcase your work/side projects
-- Easily link to your profiles on ResearchGate and ORCID
 
-## Installation
-* Click on `Use this template`
-* Your new site should be ready at https://username.github.io/gradfolio/
-* You can now modify the contents and personalise the template
+ 
 
-Alternatively, you can [download the source files](https://github.com/jitinnair1/gradfolio/archive/master.zip) and make changes locally. 
-
-To test these changes, open a terminal inside the source folder and use `jekyll serve --incremental --trace` to make it available on a local server (typically http://localhost:4000/)
-
-The `--incremental` flag ensures that any changes you make are reflected in your browser in real time and the `--trace` option might be useful for debugging if things break while you are changing the source files.
-
-Once you have personalised and tested the site, you can create a new repo, upload these files and host your website from the repo.
-
-## Based on
-- [hagura](https://github.com/sharu725/hagura)
-- [al-folio](https://github.com/alshedivat/al-folio)
-- [noir](https://github.com/essentialenemy/noir)
-- [jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme)
-
-## License
-MIT License
-
-[![JekyllThemes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com)
+## How to publish this website at a custom domain
+1. Tutorial video: https://www.youtube.com/watch?v=mPGi1IHQxFM
